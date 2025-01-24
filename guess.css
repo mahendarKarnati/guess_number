@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://dancerevradio.com/wp-content/uploads/2021/11/R24GXW-1024x768.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    background-color:rgba(100, 100, 100, 0.5);
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    border-radius: 0px 100px;
+    backdrop-filter: blur(5px);
+
+}
+h1{
+    font-size: 2.5rem;
+    color: rgb(255, 6, 255);
+}
+span{
+    color: rgb(130, 15, 231);
+}
+input{
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 30px;
+    background-color: cyan;
+    text-align: center;
+
+}
+button{
+    height: 50px;
+    width: 120px;
+    font-size: 2em;
+    background-color: rgba(92, 24, 219, 0.636);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+button:hover,input:hover{
+    outline: 5px solid greenyellow;
+    box-shadow: 2px 2px 5px 5px black;
+}
+p{
+    color: white;
+                }
+input,p{
+    font-size: 2em;
+}
+input:focus{
+    outline: 5px solid yellow;
+    outline-offset: 2px;
+    border: none;
+}
+#reload a{
+    font-size:18px;
+    text-decoration: none;
+}
